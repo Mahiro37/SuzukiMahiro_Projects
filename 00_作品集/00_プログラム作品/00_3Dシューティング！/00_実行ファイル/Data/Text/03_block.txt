@@ -1,0 +1,61 @@
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 障害物の情報
+# 障害物のサイズのXとZは同じ値にして下さい。
+#------------------------------------------------------------------------------
+BLOCK_DATASET
+	POS = 0.0 0.0 0.0
+	SIZE = 3.0 1.0 3.0
+	ROT = 0.0 45.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = -50.0 0.0 20.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 0.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = 20.0 0.0 50.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 0.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = -20.0 0.0 -50.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 0.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = 50.0 0.0 -20.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 0.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = -60.0 0.0 90.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 -25.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = 90.0 0.0 60.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 -25.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = -90.0 0.0 -60.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 -25.0 0.0
+END_BLOCK_DATASET
+
+BLOCK_DATASET
+	POS = 60.0 0.0 -90.0
+	SIZE = 1.5 1.0 1.5
+	ROT = 0.0 -25.0 0.0
+END_BLOCK_DATASET
+
+END_SCRIPT		# この行は絶対消さないこと！
